@@ -1,6 +1,6 @@
 {
   "name": "@eyes22798/component-template",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "author": "author-name",
   "main": "dist/component-template.common.js",
   "module": "dist/component-template.esm.js",
