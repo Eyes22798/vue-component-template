@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.21](https://github.com/Eyes22798/vue-component-template/compare/v0.0.20...v0.0.21) (2022-11-30)
+
 ### [0.0.20](https://github.com/Eyes22798/vue-component-template/compare/v0.0.19...v0.0.20) (2022-11-30)
 
 ### [0.0.19](https://github.com/Eyes22798/vue-component-template/compare/v0.0.13...v0.0.19) (2022-11-30)
