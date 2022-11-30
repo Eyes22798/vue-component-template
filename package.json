@@ -1,6 +1,6 @@
 {
   "name": "component-template",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "author-name",
   "main": "dist/component-template.common.js",
   "module": "dist/component-template.esm.js",
@@ -110,7 +110,7 @@
     "scripts": {
       "prerelease": "npm run test:unit",
       "postbump": "npm run build",
-      "posttag": "git push --follow-tags --no-verity origin master && npm run publish:npm"
+      "posttag": "git push --follow-tags --no-verity origin main && npm run publish:npm"
     }
   }
 }
