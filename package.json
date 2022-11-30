@@ -1,10 +1,10 @@
 {
-  "name": "@eyes22798/component-template",
-  "version": "0.0.21",
-  "author": "eyes22798",
-  "main": "dist/component-template.common.js",
-  "module": "dist/component-template.esm.js",
-  "unpkg": "dist/component-template.js",
+  "name": "<%= name %>",
+  "version": "<%= version %>",
+  "author": "<%= author %>",
+  "main": "dist/<%= name %>.common.js",
+  "module": "dist/<%= name %>.esm.js",
+  "unpkg": "dist/<%= name %>.js",
   "typings": "dist/types/index.d.ts",
   "keywords": [
     "component",
@@ -14,7 +14,7 @@
   "homepage": "",
   "repository": "",
   "private": false,
-  "description": "a component use in vue",
+  "description": "<%= description %>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build:esm": "rollup --config rollup.config.mjs",
