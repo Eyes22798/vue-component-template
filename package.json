@@ -1,6 +1,6 @@
 {
   "name": "@eyes22798/component-template",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "author-name",
   "main": "dist/component-template.common.js",
   "module": "dist/component-template.esm.js",
@@ -22,7 +22,6 @@
     "build:cjs": "rollup --config rollup.config.mjs --format cjs",
     "build:types": "tsc --build tsconfig.types.json",
     "build": "rimraf dist && npm run build:esm && npm run build:umd && npm run build:cjs && npm run build:types",
-    "publish:npm": "npm --registry  https://registry.npmjs.org publish",
     "release:major": "standard-version --release-as major",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
@@ -111,7 +110,7 @@
     "scripts": {
       "prerelease": "npm run test:unit",
       "postbump": "npm run build",
-      "posttag": "git push --follow-tags --no-verify origin main && npm run publish:npm"
+      "posttag": "git push --follow-tags --no-verify origin main && npm publish"
     }
   }
 }
