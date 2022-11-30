@@ -1,6 +1,6 @@
 {
   "name": "@eyes22798/component-template",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "author": "eyes22798",
   "main": "dist/component-template.common.js",
   "module": "dist/component-template.esm.js",
@@ -109,7 +109,8 @@
   "standard-version": {
     "scripts": {
       "prerelease": "npm run test:unit",
-      "postbump": "npm run build"
+      "postbump": "npm run build",
+      "posttag": "git push --follow-tags origin main && npm publish"
     }
   }
 }
