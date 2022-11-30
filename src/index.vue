@@ -1,7 +1,5 @@
 <template>
-  <div>
-    {{ text }}
-  </div>
+  <el-button>{{ text }}</el-button>
 </template>
 
 <script lang="ts">

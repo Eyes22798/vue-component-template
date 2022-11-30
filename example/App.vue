@@ -1,5 +1,8 @@
 <template>
   <div>
+    <el-button>
+      click me
+    </el-button>
     <CustomButton text="测试" />
   </div>
 </template>
