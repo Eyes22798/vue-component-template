@@ -1,29 +1,11 @@
-# component-template
+# vue-component-template
+[![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
 
-## Project setup
-```
-yarn install
-```
+> A template for creating vue2 components，Including version standard, unit testing, typescript, CompositionAPI.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Features:
++ Composition API
++ vue2
++ support scss/sasss
++ support test unit
++ rollup to build
