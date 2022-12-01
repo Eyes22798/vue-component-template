@@ -3,13 +3,16 @@ const prompts = [
   {
     type: 'input',
     name: 'name',
-    message: 'component name',
+    message: 'componentName',
     validate(input){
       if(!input){
         return 'component name is required.'
       }
       if(fse.existsSync(input)){
         return 'component name of folder is exist.'
+      }
+      if (input.indexOf('@eyes22798/') !== 0) {
+        return 'please prefix the component name with <@eyes22798/>'
       }
       return true
     }
