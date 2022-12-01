@@ -1,5 +1,6 @@
+const { defineConfig } = require('@vue/cli-service')
 
-module.exports = {
+module.exports = defineConfig({
   pages: {
     index: {
       entry: 'example/main.ts',
@@ -7,5 +8,7 @@ module.exports = {
       filename: 'index.html',
       chunks: ['chunk-vendors', 'chunk-common', 'index']
     }
-  }
-}
+  },
+  publicPath: process.env.NODE_ENV === 'production' ? './' : './',
+  outputDir: 'dist/example',
+})
